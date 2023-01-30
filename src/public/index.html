@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body style="background-color: black; color:  white;">
+    <H1>Home</H1>
+    <section>
+        <header>
+            <h2>Endpoint</h2>
+        </header>
+        <article>
+            <ul style="list-style: none;">
+                <hr>
+                <br>
+                <li>POST: http//:localhost:3001/api/auth/singup/ BODY: {"name":"","email":"","password":""}</li>
+                <br>
+                <hr>
+                <br>
+                <li>POST: http//:localhost:3001/api/auth/singin/ BODY: {"email":"","password":""} <em>Da el Token</em>
+                </li>
+                <br>
+                <hr>
+                <br>
+                <li>GET: http//:localhost:3001/api/auth/profile/ HEADER:'auth-token' </li>
+                <br>
+                <hr>
+
+            </ul>
+        </article>
+    </section>
+
+</body>
+
+</html>
