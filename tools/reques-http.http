@@ -1,0 +1,24 @@
+POST http://localhost:3001/api/auth/singup
+Content-Type: application/json
+
+{
+    "name":"ezequiel",
+    "email":"ezequielcad2@gmail.com",
+    "password":"12345678"
+}
+
+
+###
+POST  http://localhost:3001/api/auth/singin
+Content-Type: application/json
+
+{
+    "email":"ezequielcad2@gmail.com",
+    "password":"12345678"
+}
+
+###
+GET http://localhost:3001/api/auth/profile
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIyOWNiY2UyOC01Y2E1LTQ1NDAtYThhYS0zZmQ2NjAyMmE3NmQiLCJpYXQiOjE2NzUwNDM5NzcsImV4cCI6MTY3NTEzMDM3N30.FTqicpHUSmr383feN1feq9Uzo-HUeCA27rfw8a2QQhk
+
+
